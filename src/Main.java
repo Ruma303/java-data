@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
 
@@ -9,10 +8,15 @@ public class Main {
         byte myByte = 100;
         System.out.println(myByte); // 100
 
+        // - Overflow
+
+        //byte overflow = 200;
+
 
         // -- Short
         short myShort = 10000;
         System.out.println(myShort); // 10000
+
 
 
         // -- Integer
@@ -28,15 +32,17 @@ public class Main {
         System.out.println("Int min val: " + minInt + '\n');
         System.out.println("Int max val: " + maxInt + '\n');
 
-        /*minInt = minInt - 1;
+        /*
+        minInt = minInt - 1;
         maxInt = maxInt + 1;
         System.out.println(minInt + '\n');
-        System.out.println(maxInt + '\n');*/
+        System.out.println(maxInt + '\n');
+        */
 
 
         // -- Long
         long number3 = 15L;
-
+        System.out.println(number3); // 15
 
         // -- Float
 
@@ -68,6 +74,5 @@ public class Main {
 
         char myChar2 = 100;
         System.out.println(myChar2); // d
-
     }
 }
