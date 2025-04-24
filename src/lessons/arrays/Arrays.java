@@ -2,7 +2,7 @@ package lessons.arrays;
 
 public class Arrays {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
 // Dichiarazione di array
 
@@ -12,7 +12,7 @@ public class Arrays {
 
 // String[] nomi;
 
-// Instanziare array
+// Istanziare array
 
 // int[] numeri = new int[10];
 
@@ -26,16 +26,16 @@ public class Arrays {
 
 // Inizializzare array
 
-		int[] numeri = { 1, 2, 3, 4, 5 };
+        int[] numeri = {1, 2, 3, 4, 5};
 
-		String[] colori = { "rosso", "verde", "blu" };
+        String[] colori = {"rosso", "verde", "blu"};
 
 // Accessi e stampa elementi interni
 
-		System.out.println(numeri[0]); // stampa il primo elemento
+        System.out.println(numeri[0]); // stampa il primo elemento
 
-		numeri[1] = 42; // assegna il valore 42 al secondo elemento
+        numeri[1] = 42; // assegna il valore 42 al secondo elemento
 
-	}
+    }
 
 }
